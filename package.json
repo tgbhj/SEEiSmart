@@ -1,0 +1,34 @@
+{
+  "name": "seeismart",
+  "version": "0.1.0",
+  "description": "SEEiSmart",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "J",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "fastify": "^2.13.1",
+    "fastify-jwt": "^1.3.1",
+    "fastify-multipart": "^1.0.5",
+    "fastify-static": "^2.6.0",
+    "flyio": "^0.6.14",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.9",
+    "pump": "^3.0.0",
+    "serve-static": "^1.14.1"
+  },
+  "engines": {
+    "node": ">= 12.16.1",
+    "npm": ">= 6.14.1"
+  },
+  "apidoc": {
+    "url": "http://192.168.1.147",
+    "template": {
+      "withCompare": false,
+      "withGenerator": false
+    }
+  }
+}

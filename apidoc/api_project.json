@@ -1,0 +1,19 @@
+{
+  "url": "http://192.168.1.147",
+  "template": {
+    "withCompare": false,
+    "withGenerator": false
+  },
+  "name": "seeismart",
+  "version": "0.1.0",
+  "description": "SEEiSmart",
+  "sampleUrl": false,
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2020-04-02T01:36:18.281Z",
+    "url": "http://apidocjs.com",
+    "version": "0.20.1"
+  }
+}
