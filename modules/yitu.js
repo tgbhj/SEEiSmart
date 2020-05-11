@@ -2,7 +2,6 @@ const fly = require('flyio')
 const fs = require('fs')
 const pump = require('pump')
 const path = require('path')
-const os = require('os')
 
 async function yituLogin(req, reply) {
     await fly
