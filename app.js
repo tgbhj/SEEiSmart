@@ -17,6 +17,7 @@ mongoose.connect(`mongodb://${mongoHost}:${mongoPort}/${mongoDataBase}`, {
     console.log('MongoDB Connect Success')
 }, error => {
     console.log(`MongoDB Connect Failed: ${error}`)
+    process.exit(1)
 })
 
 const routes = require('./routes/routers')
