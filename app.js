@@ -4,7 +4,7 @@ const fastifyStatic = require('fastify-static')
 const serveStatic = require('serve-static')
 const jwt = require('fastify-jwt')
 // const {httpPort, mongoUser, mongoPass, mongoHost, mongoPort, mongoDataBase} = require('./config/index')
-const { mongoHost, mongoPort, mongoDataBase, httpPort } = require('./config/index')
+const { httpPort, mongoHost, mongoPort, mongoDataBase } = require('./config/index')
 const mongoose = require('mongoose')
 mongoose.Promise = require('bluebird')
 // mongoose.connect(`mongodb://${mongoUser}:${mongoPass}@${mongoHost}:${mongoPort}/${mongoDataBase}`, {
